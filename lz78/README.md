@@ -1,11 +1,9 @@
-# Assignment 5: Lempel-Ziv Compression
+# LV78 Compression
 
 ## Short Description:
-This prorgram implements LZ78 data compression and decompression with the files encode and decode, respectively. trie.c implements the Trie ADT used for creating tries, word.c implements the Word ADT for creating Words and WordTables, and io.c implements the I/O module for buffering the I/O.
+This program implements LZ78 data compression and decompression with the files encode and decode, respectively. trie.c implements the Trie ADT used for creating tries, word.c implements the Word ADT for creating Words and WordTables, and io.c implements the I/O module for buffering the I/O.
 
 ## Files Included:
-- randstate.c: Implements the random state interface for the SS library and number theory functions.
-
 - encode.c: contains the main() function for the encode program.
 
 - decode.c: contains the main() function for the decode program.
@@ -29,10 +27,6 @@ This prorgram implements LZ78 data compression and decompression with the files 
 - README.md: This file.
 
 - Makefile: compiles the program.
-
-- DESIGN.pdf: Documents the design process and includes psuedocode and explanation on how program structure works.
-
-- WRITEUP.pdf: Overview of knowledge learned.
 
 ## Build:
 To build all executables:
